@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ActivityBienvenida">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/PrimaryColor">
+
+        <ImageButton
+            android:id="@+id/flecha"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/back_white"
+            android:contentDescription="@string/subBienvenida"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/btnClose_Wel"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/ic_salir"
+            android:contentDescription="@string/cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/flecha"
+            app:layout_constraintTop_toTopOf="@+id/flecha"
+            tools:ignore="ImageContrastCheck" />
+        <!--  Agregamos algo en Style.xml para usar boton con icono-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView_NoPregunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/m_bold"
+                android:textAlignment="center"
+                android:text="@string/TitBienvenido"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView_Pregunta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/m_light"
+                android:text="@string/subBienvenida"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+
+            <ImageView
+                android:id="@+id/imgviewdibujo"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img_bienvenida"
+                tools:ignore="ContentDescription">
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_test"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:elevation="50dp"
+                android:fontFamily="@font/m_bold"
+                android:text="@string/btonTest"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_directorio"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="40dp"
+                android:elevation="50dp"
+                android:fontFamily="@font/m_bold"
+                android:text="@string/btnInstitutos"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_estadisticas"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:elevation="50dp"
+                android:fontFamily="@font/m_bold"
+                android:text="VER MIS RESULTADOS"
+                tools:ignore="TextContrastCheck"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

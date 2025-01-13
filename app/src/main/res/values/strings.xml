@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Descrubre tus Habilidades</string>
+
+    <string name="titRegistro">REGISTRO DE</string>
+    <string name="TitRegistro2">NUEVA CUENTA</string>
+    <string name="HintNombre">Ingrese su nombre completo</string>
+    <string name="btn_registrar">REGISTRARME</string>
+    <string name="o_registrese_con">Usar cuenta de Google para registrarse</string>
+    <string name="textoBotonIniciar">¿Ya tiene cuenta? Inicie sesión</string>
+    <string name="IngresaInvitado">o Ingresa como invitado</string>
+
+    <string name="iniciar">INICIAR SESION</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="correo">CORREO</string>
+    <string name="Correo">Ingrese su correo</string>
+    <string name="pass">CONTRASEÑA</string>
+    <string name="contraseña">Ingrese su contraseña</string>
+    <string name="btn_iniciar">INGRESAR</string>
+    <string name="o_ingrese_con">Usar cuenta Google para ingresar</string>
+    <string name="textoBotonRegistro">¿No tienes cuenta? Registrese</string>
+
+    <string name="TitBienvenido">BIENVENIDO(A)</string>
+    <string name="subBienvenida">Con las preguntas de nuestra app podrás tener una idea mas clara de cual profesión o vacación te conviene mas con relación a tus gustos</string>
+    <string name="btonTest">REALIZAR TEST</string>
+    <string name="btnInstitutos">DIRECTORIO DE INSTITUTOS</string>
+    <string name="btnEstadisticas">ESTADISTICAS</string>
+
+    <string name="TitTest">TEST PARA DESCUBRIR</string>
+    <string name="subTest">HABILIDADES O VOCACIÓN</string>
+    <string name="NoPregunta">PREGUNTA YYY</string>
+    <string name="DesPregunta">Diseñar y planificar la producción masiva de artículos como muebles, autos, equipos de oficina, empaques y envases para alimentos y otros..</string>
+    <string name="BotonInteresa">ME INTERESA</string>
+    <string name="BotonNoInteresa">NO ME INTERESA</string>
+
+    <string name="TitResult">FELICITACIONES!</string>
+    <string name="SubResult">Estas son las areas que mas le conviene, para ver las carreras o vocaciones relaciondas presione sobre el area de interes</string>
+    <string name="Area1">Arte y creatividad</string>
+    <string name="Area2">Ciencias Sociales</string>
+    <string name="Area3">Economía, Administración, Finanzas</string>
+    <string name="Area4">Ciencias y Tecnologias</string>
+    <string name="Area5">Ciencias Naturales, Biología, Medicina, Area Ambiental</string>
+    <string name="inicio">Inicio</string>
+    <string name="cerrar">cerrar</string>
+
+    <string name="T1Carreras">CARRERAS</string>
+    <string name="T2Carreras">QUE PUEDES OPTAR</string>
+
+    <string name="CondiPassword">Debe ser mayor a 6 caracteres</string>
+    <string name="botonregresa">BotonRegresa</string>
+
+
+</resources>

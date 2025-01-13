@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carrera_EscuelaActivity">
+
+    <View
+        android:id="@+id/view_test"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/PrimaryColor"
+        android:elevation="5dp"/>
+
+    <ImageButton
+        android:id="@+id/btnBack_Carr_escuela"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_white"
+        android:contentDescription="regresar"
+        tools:ignore="ImageContrastCheck"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:id="@+id/textView1_TituDirectorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+
+        android:layout_below="@+id/btnBack_Carr_escuela"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/m_bold"
+        android:text="DIRECTORIO"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:elevation="10dp"
+        android:id="@+id/textView_sub_directorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1_TituDirectorio"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/m_light"
+        android:text="DE INSTITUTOS, COLEGIOS DE SOLOLÁ"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ListadeEscuelaParaCarrera"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_test"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="25dp"
+        android:clipToPadding="false" />
+
+</RelativeLayout>

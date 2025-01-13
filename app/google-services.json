@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "595780428704",
+    "project_id": "mihabilidad-app",
+    "storage_bucket": "mihabilidad-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595780428704:android:e0bb1127ea2ea62c35bac5",
+        "android_client_info": {
+          "package_name": "com.example.descubretushabilidades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595780428704-ds23j327bgp65ho9h62qvqde2chhlav8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTWj-r1wF0btvBinxY3Pz99JFKc0zLnys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595780428704-ds23j327bgp65ho9h62qvqde2chhlav8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
